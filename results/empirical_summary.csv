@@ -1,0 +1,3 @@
+dyad,n_total,n_feasible,n_valid,valid_rate,mean_rounds,mean_seller_share
+Human--LLM,33,19,13,0.6842105263157895,1.4615384615384615,0.4378205128205128
+LLM--LLM,31,8,7,0.875,4.142857142857143,0.5653061224489795

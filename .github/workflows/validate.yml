@@ -1,0 +1,27 @@
+name: validate-repository
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.11', '3.13']
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Run deterministic and accounting tests
+        run: python -m unittest discover -s tests -v
+      - name: Verify archived results
+        run: python tools/verify_outputs.py
+      - name: Verify data integrity manifest
+        run: python tools/verify_manifest.py

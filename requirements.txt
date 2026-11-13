@@ -1,0 +1,6 @@
+# Tested with Python 3.13.5; requirements use compatible lower bounds.
+numpy>=1.24,<3
+pandas>=2.0,<3
+scipy>=1.10,<2
+matplotlib>=3.7,<4
+statsmodels>=0.14,<1

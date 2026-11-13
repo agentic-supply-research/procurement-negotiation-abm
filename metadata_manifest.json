@@ -1,0 +1,65 @@
+{
+  "schema": "archived-derived-inputs-and-model-outputs-v1",
+  "files": [
+    {
+      "file": "data/glee_observed_negotiations_sample.csv",
+      "sha256": "d2886d63ab0f08e1f418666140baf0bc564411f94aa737aec9a93d3a8718e4c1",
+      "bytes": 2538
+    },
+    {
+      "file": "results/adaptive_paired.csv",
+      "sha256": "294078dde5cce4aba749673e18332170bbc82aa199a8c5675664bdb44e481f7d",
+      "bytes": 7942
+    },
+    {
+      "file": "results/adaptive_replications.csv",
+      "sha256": "7a77e88cf8bbeab730215e5c6dc2c0f40a438e60e841e8c98d27fc492ccfcd51",
+      "bytes": 151587
+    },
+    {
+      "file": "results/adaptive_sensitivity.csv",
+      "sha256": "9cc7fccb15cd1c28358f070d6ee90deaba5e81e5327d36fd4c4d7bf9dab4324f",
+      "bytes": 4006
+    },
+    {
+      "file": "results/adaptive_snapshots_seed0.npz",
+      "sha256": "a7b58f83e7b71cfedc175dea6c3a297c5116929a9185c0e93180688a6b7d34f5",
+      "bytes": 8519
+    },
+    {
+      "file": "results/adaptive_summary.csv",
+      "sha256": "0e063653b58a7e148285f01df497175120bb1d818f482d06affc2d0a3b15a1ac",
+      "bytes": 4795
+    },
+    {
+      "file": "results/adaptive_trajectories.csv",
+      "sha256": "2a7fc3844b7b2e5b101962a4853565fd545a1f492c113d884d2995b9dafa4bd0",
+      "bytes": 6669491
+    },
+    {
+      "file": "results/emergent_link_baseline_robustness.csv",
+      "sha256": "172fb78cc34b56436b00a87c6c969a6f51ad0cd8c04c0d11819405c806b29b59",
+      "bytes": 26058
+    },
+    {
+      "file": "results/emergent_link_cohorts.csv",
+      "sha256": "65ecca1e2c4e739a2d431648633fcad60fc1e486e8d43fb0d23cd07c85e9076e",
+      "bytes": 166780
+    },
+    {
+      "file": "results/emergent_link_phase_metrics.csv",
+      "sha256": "05a0446d6a69129160dc32bfd0e9ed61f9504254b30729452b9e43bd7f50fd36",
+      "bytes": 42398
+    },
+    {
+      "file": "results/emergent_link_trajectories.csv",
+      "sha256": "c903a4d2f9bb3e30a47103a854983a957a8a782e57642a9706f01f134a328519",
+      "bytes": 851782
+    },
+    {
+      "file": "results/empirical_summary.csv",
+      "sha256": "2882068e3aac86e7aac5b607c885b4cd68d50934b438de7e6d6c506a88affc4f",
+      "bytes": 209
+    }
+  ]
+}
